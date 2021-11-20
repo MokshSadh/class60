@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(#46b3f2 0% , #f28846 50% , #63f246 100%);
+}
+#app{
+    width: 100%;
+    height: 800px;
+}
+#game{
+    width: 100%;
+    height: 500px;
+}
+#chatbot{
+    width: 100%;
+    height: 800px;
+}
+.line{
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    margin: 10px auto;
+}
+img{
+    transition: transform.2s;
+}
+img:hover{
+    transform: scale(0.9);
+    box-shadow: 1px 1px 18px rgb(0, 0, 0);
+}
